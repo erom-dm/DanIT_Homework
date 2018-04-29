@@ -1,4 +1,8 @@
+// Multiply two integers in range 100-999; Find largest result that is a palindrome.
+
 package it.dan.palindrome;
+
+import com.sun.org.apache.xpath.internal.SourceTree;
 
 import java.util.TreeSet;
 
@@ -7,6 +11,7 @@ public class PalindromeNumber {
         int one = 999;
         int two = 999;
         int mult;
+        // for sake of visibility, let's save all palindrome multiplication results
         TreeSet<Integer> results = new TreeSet<>();
 
         for (int i = 0; i < 900; i++){
@@ -18,7 +23,8 @@ public class PalindromeNumber {
             }
         }
 
-        System.out.println(results.last());
+        System.out.println("Largest palindrome is: " + results.last());
+        System.out.println("All of the palindromes are: " + results);
 
     }
 
