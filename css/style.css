@@ -1,0 +1,32 @@
+* {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.landing{
+    background-color: #fff;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.top-page-links{
+    margin-top: 32px;
+    margin-bottom: 35px;
+}
+
+.top-page-links span{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #16a085;
+
+}
+.picture{
+    width:100%;
+}
