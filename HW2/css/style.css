@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Myriad';
+    scr: url('../fonts/Myriad Pro Bold.ttf');
+    font-weight:900;
+}
+
+@font-face {
+    font-family: 'Myriad';
+    scr: url('../fonts/Myriad Pro Regular.ttf')
+}
+
+body{
+    font-family: 'Myriad', sans-serif;
+}
+
+.container{
+    position: relative;
+    width: 1280px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Myriad', sans-serif;
+    font-size: 61px;
+    text-transform: uppercase;
+}
+
+.logo{
+    position: relative;
+    top: 61px;
+    left: 101px;
+    display: inline-block;
+}
+
+.highlight{
+    color: #4bcaff;
+}
+
+.navbar{
+    position: relative;
+    top: 45px;
+    left: 1px;
+
+}
