@@ -46,20 +46,31 @@ h1 {
 }
 
 .navbar-nav{
-    margin: 22px 180px;
+    margin: 0px 150px;
     padding-left: 0;
     display: inline-block;
-    align-self: center;
+    text-align: center;
 }
 
 .navbar-nav li{
     list-style: none;
     display: inline-block;
-    margin-left: 60px;
+    height: 69px;
+    padding-left: 41px;
+    padding-right: 41px;
     text-align: center;
 }
 
+.navbar-nav-el:hover{
+    background-color: #222f3a;
+    border: 1px red;
+
+}
+
 .navbar-nav a {
+    position: relative;
+    text-align: center;
+    top: 19px;
     text-decoration: none;
     font-family: 'Myriad Pro';
     color:  #ffffff;
