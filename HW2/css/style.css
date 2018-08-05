@@ -62,8 +62,11 @@ h1 {
 }
 
 .navbar-nav-el:hover{
+    padding-left: 40px;
+    padding-right: 40px;
+    border-left: 1px solid #818181;
+    border-right: 1px solid #818181;
     background-color: #222f3a;
-    border: 1px red;
 
 }
 
@@ -79,9 +82,44 @@ h1 {
 }
 
 .sidemenu{
+    display: inline-block;
+    border: 1px solid #000;
     position: relative;
+    width: 344px;
     top: 300px;
     left: 1px;
+}
+
+.sidemenu-nav{
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+    padding: 0 0;
+}
+
+.sidemenu-nav-el{
+    display: inline-block;
+    height: 81px;
+    width: 100%;
+}
+
+.sidemenu-nav-el:hover {
+    background-color: #dcdcdc;
+    padding-left: 25px;
+    widows:
+}
+
+.sidemenu-nav a{
+    padding-left: 30px;
+    position: relative;
+    top: 23px;
+    text-decoration: none;
+    font-family: 'Myriad Pro';
+    color:  #485863;
+    font-size: 27px;
+    font-weight: 400;
+
 }
 
 .footer{
