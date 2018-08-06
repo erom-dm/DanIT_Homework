@@ -107,7 +107,6 @@ h1 {
 .sidemenu-nav-el:hover {
     background-color: #dcdcdc;
     padding-left: 25px;
-    widows:
 }
 
 .sidemenu-nav a{
@@ -122,8 +121,71 @@ h1 {
 
 }
 
-.footer{
+.content{
+    top: 300px;
     position: relative;
-    bottom: 20px;
-    left: 1px;
+    width: 885px;
+    height: 760px;
+    float: right;
+    text-align: center;
+}
+
+
+.image{
+    position: relative;
+    float: right;
+    width: 885px;
+    height: 529px;
+    border: 1px solid #000;
+}
+
+.image img{
+    padding-top: 75px;
+}
+
+.text{
+    height: 354px;
+    position: relative;
+    top: 581px;
+    display: contents;
+    text-align: left;
+}
+
+.text p{
+    font-family: 'Myriad Pro';
+    font-size: 18px;
+    display: inline-block;
+    padding-top: 30px;
+}
+
+.footer{
+    text-align: center;
+    position: absolute;
+    bottom: -838px;
+    width: 1280px;
+    height: 69px;
+    background-color: #b5b8bb;
+    margin-bottom: 30px ;
+}
+
+.footer-navbar{
+    float: left;
+    position: relative;
+    margin: 0px 44px;
+    padding-left: 0;
+    display: inline-block;
+    text-align: center;
+}
+
+.footer-element{
+    float: left;
+    list-style: none;
+    height: 69px;
+    padding-left: 41px;
+    padding-right: 41px;
+}
+
+.footer-element a{
+    text-decoration: none;
+
 }
