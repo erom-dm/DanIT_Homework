@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'Myriad';
+    font-family: 'Myriad Pro';
     scr: url('../fonts/Myriad Pro Bold.ttf');
     font-weight:900;
 }
 
 @font-face {
-    font-family: 'Myriad';
+    font-family: 'Myriad Pro';
     scr: url('../fonts/Myriad Pro Regular.ttf')
 }
 
@@ -21,10 +21,15 @@ body{
     /*overflow: hidden;*/
 }
 
-h1 {
+.title {
     margin: 0;
-    font-family: 'Myriad', sans-serif;
-    font-size: 61px;
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 0px;
+}
+
+.title span{
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 68px;
 }
 
 .logo{
@@ -53,6 +58,7 @@ h1 {
 }
 
 .navbar-nav li{
+    font-family: 'Myriad Pro', sans-serif;
     list-style: none;
     display: inline-block;
     height: 69px;
@@ -152,10 +158,12 @@ h1 {
 }
 
 .text p{
-    font-family: 'Myriad Pro';
+    font-family: 'Myriad Pro', sans-serif;
     font-size: 18px;
     display: inline-block;
     padding-top: 30px;
+    color:  #2c2b2b;
+    font-weight:400;
 }
 
 .footer{
@@ -168,10 +176,10 @@ h1 {
     margin-bottom: 30px ;
 }
 
-.footer-navbar{
+.footer-list{
     float: left;
     position: relative;
-    margin: 0px 44px;
+    margin: 0px 10px;
     padding-left: 0;
     display: inline-block;
     text-align: center;
@@ -181,11 +189,34 @@ h1 {
     float: left;
     list-style: none;
     height: 69px;
-    padding-left: 41px;
-    padding-right: 41px;
+    padding-top: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
+.first{
+    padding-left: 29px;
+}
+
 
 .footer-element a{
+    color: #0c1927;
     text-decoration: none;
+    font-size:25px;
+}
+
+.footer-element a:hover{
+    color:  #3181a6;
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #3181a6;
+}
+
+.copyright{
+    padding: 18px 37px 10px 0px;
+    float: right;
+    color:  #010000;
+    font-size: 24px;
+    font-weight: 400;
 
 }
+
