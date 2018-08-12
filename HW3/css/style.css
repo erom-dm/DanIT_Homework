@@ -37,13 +37,9 @@
 
 .logo{
     display: flex;
-    flex-basis: 165px;
+    flex-basis: 188px;
     flex-direction: row;
     justify-content: space-between;
-
-}
-
-.logo-image{
 
 }
 
@@ -52,13 +48,12 @@
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    font-family: 'Verdana Bold', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
 }
 
 .logo-name-big{
-    line-height: 32px;
+    line-height: 30px;
     flex-basis: 22px;
     font-size: 29px;
     margin: 0 0;
