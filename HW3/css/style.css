@@ -3,13 +3,18 @@
     scr: url('../fonts/Verdana.ttf');
 }
 
+@font-face {
+    font-family: 'Verdana Bold';
+    scr: url('../fonts/verdanab.ttf');
+}
+
 
 * {
     box-sizing: border-box;
 }
 
 .main{
-    font-family: 'Myriad', sans-serif;
+    font-family: 'Verdana', sans-serif;
     background-image: url(../img/background.png);
     background-size: cover;
 }
@@ -26,6 +31,8 @@
     width: 100%;
     height: 44px;
     margin-top: 49px;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .logo{
@@ -43,14 +50,15 @@
 .logo-name{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     color: #fff;
+    font-family: 'Verdana Bold', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
-    letter-spacing: 2px;
 }
 
 .logo-name-big{
+    line-height: 32px;
     flex-basis: 22px;
     font-size: 29px;
     margin: 0 0;
@@ -61,4 +69,22 @@
     flex-basis: 13px;
     font-size: 18px;
     margin: 0 0;
+    letter-spacing: 2px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.contact-item{
+    margin: 0 0;
+    line-height: 22px;
+    font-family: 'Verdana', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    text-align: right;
+    letter-spacing: 1px;
 }
