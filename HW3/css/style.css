@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Verdana';
+    scr: url('../fonts/Verdana.ttf');
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.main{
+    font-family: 'Myriad', sans-serif;
+    background-image: url(../img/background.png);
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 44px;
+    margin-top: 49px;
+}
+
+.logo{
+    display: flex;
+    flex-basis: 165px;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.logo-image{
+
+}
+
+.logo-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.logo-name-big{
+    flex-basis: 22px;
+    font-size: 29px;
+    margin: 0 0;
+    letter-spacing: 4px;
+}
+
+.logo-name-small{
+    flex-basis: 13px;
+    font-size: 18px;
+    margin: 0 0;
+}
