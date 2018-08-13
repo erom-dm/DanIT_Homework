@@ -98,7 +98,22 @@
 }
 
 .tour{
+    flex-basis: 312px;
     height: 243px;
+}
 
+.tour p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.tour-img{
+    box-sizing: border-box;
+    border: solid 3px;
+    border-image:
+            linear-gradient(to bottom, white, rgba(0, 0, 0, 0)) 1 1%;
 }
 
