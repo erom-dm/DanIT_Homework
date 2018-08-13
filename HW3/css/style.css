@@ -17,6 +17,7 @@
     font-family: 'Verdana', sans-serif;
     background-image: url(../img/background.png);
     background-size: cover;
+    background-position: center;
 }
 
 .container{
@@ -24,6 +25,7 @@
     width: 1200px;
     height: 100vh;
     margin: 0 auto;
+    flex-direction: column;
 }
 
 .header{
@@ -31,6 +33,7 @@
     width: 100%;
     height: 44px;
     margin-top: 49px;
+    margin-bottom: 48px;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -84,3 +87,18 @@
     text-align: right;
     letter-spacing: 1px;
 }
+
+.tours-container{
+    display: flex;
+    height: 541px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.tour{
+    height: 243px;
+
+}
+
