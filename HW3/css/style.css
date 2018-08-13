@@ -113,6 +113,7 @@
 }
 
 .tour{
+    position: relative;
     flex-basis: 312px;
     height: 243px;
     color: #ffffff;
@@ -122,11 +123,31 @@
     color: #f26522;
 }
 
-.tour p{
+.tour:hover div.hover-info{
+    display: block;
+}
+
+.tour div.hover-info{
+    display: none;
+}
+
+
+.hover-info{
+    height: 63px;
+    width: 312px;
+    background-color: #f26522;
+    position: relative;
+    top: -69px;
+}
+
+.tour p {
+    position: absolute;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
+    bottom: -17px;
+    width: 313px;
 }
 
 .tour-img{
