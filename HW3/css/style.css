@@ -46,14 +46,14 @@
 .logo-name{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
 }
 
 .logo-name-big{
-    line-height: 30px;
+    line-height: 22px;
     flex-basis: 22px;
     font-size: 29px;
     margin: 0 0;
@@ -61,6 +61,7 @@
 }
 
 .logo-name-small{
+    line-height: 13px;
     flex-basis: 13px;
     font-size: 18px;
     margin: 0 0;
