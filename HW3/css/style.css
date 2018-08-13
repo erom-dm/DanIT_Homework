@@ -133,12 +133,45 @@
 
 
 .hover-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     height: 63px;
     width: 312px;
     background-color: #f26522;
     position: relative;
     top: -69px;
+    color: #ffffff;
 }
+
+.price-cont {
+    margin: 0 0;
+    height: 30px;
+    flex-basis: 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.from{
+    margin: 0 0;
+}
+
+.price{
+    margin: 0 0;
+}
+
+.details{
+    margin: 0 0;
+}
+
+.details-text{
+    margin: 0 0;
+}
+
+
+
+
 
 .tour p {
     position: absolute;
