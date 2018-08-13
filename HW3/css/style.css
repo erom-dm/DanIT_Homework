@@ -115,10 +115,14 @@
 .tour{
     flex-basis: 312px;
     height: 243px;
+    color: #ffffff;
+}
+
+.tour:hover{
+    color: #f26522;
 }
 
 .tour p{
-    color: #ffffff;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
