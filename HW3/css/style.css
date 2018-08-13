@@ -147,6 +147,7 @@
 .price-cont {
     margin: 0 0;
     height: 30px;
+    width: 38px;
     flex-basis: 38px;
     display: flex;
     flex-direction: column;
