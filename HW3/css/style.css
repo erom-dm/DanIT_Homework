@@ -134,47 +134,50 @@
 
 .hover-info{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
     height: 63px;
     width: 312px;
     background-color: #f26522;
     position: relative;
-    top: -69px;
+    top: -68px;
     color: #ffffff;
 }
 
 .price-cont {
-    margin: 0 0;
-    height: 30px;
-    width: 38px;
-    flex-basis: 38px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.from{
-    margin: 0 0;
-}
-
-.price{
-    margin: 0 0;
+    display: block;
+    height: 100%;
+    width: 67px;
+    padding: 16px 0px 17px 21px;
 }
 
 .details{
+    display: block;
+    height: 30px;
+    width: 38px;
+}
+
+.from{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 8px;
+    padding-bottom: 7px;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 21px;
     margin: 0 0;
 }
+
 
 .details-text{
     margin: 0 0;
 }
 
-
-
-
-
-.tour p {
+.tour-name {
     position: absolute;
     text-align: center;
     font-size: 18px;
@@ -186,7 +189,7 @@
 
 .tour-img{
     box-sizing: border-box;
-    border: solid 3px;
+    border: solid 2px;
     border-image:
             linear-gradient(to bottom, white, rgba(0, 0, 0, 0)) 1 1%;
 }
