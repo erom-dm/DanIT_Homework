@@ -124,7 +124,7 @@
 }
 
 .tour:hover div.hover-info{
-    display: block;
+    display: flex;
 }
 
 .tour div.hover-info{
@@ -134,9 +134,9 @@
 
 .hover-info{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    align-content: space-between;
+    justify-content: space-between;
     height: 63px;
     width: 312px;
     background-color: #f26522;
@@ -150,12 +150,6 @@
     height: 100%;
     width: 67px;
     padding: 16px 0px 17px 21px;
-}
-
-.details{
-    display: block;
-    height: 30px;
-    width: 38px;
 }
 
 .from{
@@ -172,9 +166,28 @@
     margin: 0 0;
 }
 
+.details{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 127px;
+    justify-content: stretch;
+}
 
 .details-text{
-    margin: 0 0;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    padding-top: 33px;
+  /*  text-align: center;*/
+}
+
+.details-text::after{
+    font-family: sans-serif;
+    margin-left: 15px;
+    content: ">";
 }
 
 .tour-name {
