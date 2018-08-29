@@ -140,8 +140,13 @@
 
 .tour div.hover-info{
     display: none;
+
 }
 
+@keyframes fadeOut {
+    0% { opacity: 100 }
+    100% { opacity: 0 }
+}
 
 .hover-info{
     display: flex;

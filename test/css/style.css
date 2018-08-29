@@ -1,83 +1,32 @@
-body{
+*{
+    margin:0;
+    padding:0;
+}
+
+.table{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 700px;
+    width: 1000px;
 }
 
-.container{
-    background-color: greenyellow;
-    width: 700px;
-    height: 400px;
-
-}
-
-
-.transform{
-    animation: move-to-right infinite linear 1s;
-    transform: scale(0.5);
+.row1 {
     display: flex;
-    flex-direction: row-reverse;
-    background-color: black;
-    bottom: 50px;
-    right:150px;
-    height: 100%;
-    /*transition-delay: 50ms;*/
-
-}
-.transform2{
-    animation: move-to-right infinite linear 1.8s;
-    transform: scale(0.5);
-    display: flex;
-    flex-direction: row-reverse;
-    bottom: 50px;
-    background-color: red;
-    height: 100%;
-    right:150px;
-}
-
-.transform3{
-    animation: move-to-right infinite linear 1.6s;
-    display: flex;
-    flex-direction: row-reverse;
-    transform: scale(0.5);
-    background-color: blue;
-    height: 100%;
-    left: 150px;
-    top:50px;
-}
-
-.transform4{
-    animation: move-to-right infinite linear 1.4s;
-    display: flex;
-    flex-direction: row-reverse;
-    transform: scale(0.5);
-    background-color: rebeccapurple;
-    top: 50px;
-    height: 100%;
-    left:150px;
-}
-
-.transform5{
-    animation: move-to-right infinite linear 0.8s;
-    display: flex;
-    flex-direction: row-reverse;
-    transform: scale(0.5);
-    background-color: yellow;
-    bottom: 50px;
-    height: 100%;
-    right:150px;
-}
-
-@keyframes move-to-right{
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    text-align: center;
+    vertical-align: center;
 
 }
 
-
+.row1 div{
+    align-self: stretch;
+    background-color: #fffe82;
+    height: 200px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: 400;
+}
