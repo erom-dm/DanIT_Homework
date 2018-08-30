@@ -12,7 +12,7 @@ if (target === 1){
 } else if (target === 2){
     alert(num2);
 } else {
-    alert(fib(num1, num2, target-2));
+    alert(fib(num1, num2, target-1));
 }
 
 
