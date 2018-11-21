@@ -175,4 +175,6 @@ Hamburger.prototype.calculateCalories = function (){
 * Подробности хранятся в свойстве message.
 * @constructor
 */
-//function HamburgerException (...) { ... }
+function HamburgerException (e) {
+    return "hamburger exception " + e;
+}
