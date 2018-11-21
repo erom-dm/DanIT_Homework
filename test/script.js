@@ -1,5 +1,12 @@
-let input = document.getElementById("inp");
+//$("#item").css('background-color', '#fff111');
 
-input.onkeyup = function () {
-    console.log(input.value);
-}
+$("#item").css({
+    'background-color': '#fff111',
+    'width': '400px',
+    'height': '200px'
+})
+
+$(".list-item").css('font-size', '30px')
+$($(".list-item")[3]).css('font-size', '50px')
+
+

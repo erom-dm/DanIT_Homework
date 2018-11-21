@@ -36,11 +36,16 @@ getData(locationURL).then((data) => {
         console.log(`You are in: ${data.name}`);
         console.log(`Temperature is: ${data.main.temp - 273.15} Celcius`);
         console.log(`Weather description: ${data.weather[0].description}`);
+        $('.city').html(`You are in: ${data.name}`);
+        $('.temperature').html(`Temperature is: ${data.main.temp - 273.15} Celcius`);
+        $('.weather').html(`Weather description: ${data.weather[0].description}`);
     });
     return data.city;
     }, (error) =>{
         console.log(`we have an error: ${error}`);
         return error;
 });
+
+
 
 
