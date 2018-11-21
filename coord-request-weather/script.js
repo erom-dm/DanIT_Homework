@@ -39,6 +39,9 @@ getData(locationURL).then((data) => {
         $('.city').html(`You are in: ${data.name}`);
         $('.temperature').html(`Temperature is: ${data.main.temp - 273.15} Celcius`);
         $('.weather').html(`Weather description: ${data.weather[0].description}`);
+    }, (error) =>{
+        console.log(`we have an error: ${error}`);
+        return error;
     });
     return data.city;
     }, (error) =>{
@@ -46,6 +49,24 @@ getData(locationURL).then((data) => {
         return error;
 });
 
+/*( async ()=>{
+    let location = await getData(locationURL);
+    let weatherURL = `http://api.openweathermap.org/data/2.5/weather?q=${location.results.city}&appid=bf60c7cca9ba7d27aa20f720b3d78bec`;
+    let weather = await getData(weatherURL);
+    $('.city').html(`You are in: ${weather.results.name}`);
+    $('.temperature').html(`Temperature is: ${weather.results.temp - 273.15} Celcius`);
+    $('.weather').html(`Weather description: ${weather.results.description}`);
+    }))
+})();*/
 
+/*
+(async () => {
+    let location = await fetch(locationURL);
+    console.log(location.json());
+    let weatherURL = `http://api.openweathermap.org/data/2.5/weather?q=${location.json().city}&appid=bf60c7cca9ba7d27aa20f720b3d78bec`;
+    let weather = await fetch(weatherURL);
+    console.log(weather);
+})();
+*/
 
 
